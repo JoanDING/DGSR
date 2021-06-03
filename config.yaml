@@ -1,0 +1,13 @@
+topk: [5,10,20]
+test_interval: 10
+num_epoches: 250
+batch_size: 5000
+test_batch_size: 5000
+lr: 0.01
+weight_decay: 0.000001
+
+ifashion:
+  target_path: './dataset/iFashion/'
+
+amazon:
+  target_path: './dataset/amazon_fashion/'
