@@ -24,7 +24,7 @@
 ## How to Run
 1. Download the [dataset](https://drive.google.com/file/d/1dFMu9-RvRa7a-47yYcN2VE5tPlYSxyD0/view?usp=sharing), decompress it and put it in the top directory with the following command. Note that the downloaded files include two datasets ulilized in the paper: iFashion and amazon_fashion.
     ```
-     tar zxvf dgsr_dataset.tar.gz. 
+    tar zxvf dgsr_dataset.tar.gz. 
     ```
 
 2. Settings in the configure file config.yaml are basic experimental settings, which are usually fixed in the experiments. To tune other hyper-parameters, you can use command line to pass the parameters. The command line supported hyper-parameters including: the dataset (-d), sequence length (-l) and embedding size (-e). You can also specify which gpu device (-g) to use in the experiments. 
